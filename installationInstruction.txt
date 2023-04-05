@@ -1,0 +1,13 @@
+install application into docker
+
+ git clone https://github.com/AshwaniKRawat/rest-web-service-docker.git
+ cd spring-boot-docker-app
+ ls -l
+ mvn clean package
+ ls -l target
+ docker images
+ docker system prune -a
+ docker build -t springbootdockerapp .
+ docker images
+ docker run -d -p 9090:8080 springbootdockerapp
+ docker ps
