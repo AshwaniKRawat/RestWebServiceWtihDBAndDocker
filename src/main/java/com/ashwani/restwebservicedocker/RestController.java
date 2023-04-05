@@ -27,7 +27,7 @@ public class RestController {
 	 		+ "		<tr  style=\"height: 80%\">\r\n"
 	 		+ "			<td></td>\r\n"
 	 		+ "			<td><center>\r\n"
-	 		+ "					<h2>Hello this page is coming from spring web application developed by  Ashwani Rawat.</h2> \r\n"
+	 		+ "					<h2>Hello this page is coming from spring rest application developed by  Ashwani Rawat.</h2> \r\n"
 	 		+ "				</center></td>\r\n"
 	 		+ "			<td></td>\r\n"
 	 		+ "		</tr>\r\n"
