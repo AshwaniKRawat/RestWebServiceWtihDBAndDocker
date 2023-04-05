@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.ashwani</groupId>
 	<artifactId>rest-web-service-docker</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1-REALEASE</version>
 	<name>rest-web-service-docker</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
