@@ -1,13 +1,65 @@
+==================================
 install application into docker
+==================================
+-----------
+git command
+-----------
 
- git clone https://github.com/AshwaniKRawat/rest-web-service-docker.git
- cd spring-boot-docker-app
- ls -l
- mvn clean package
- ls -l target
- docker images
- docker system prune -a
- docker build -t springbootdockerapp .
- docker images
- docker run -d -p 9090:8080 springbootdockerapp
- docker ps
+git clone https://github.com/AshwaniKRawat/rest-web-service-docker.git
+
+
+cd spring-boot-docker-app
+ls -l
+
+--------------
+Maven command
+--------------
+mvn clean package
+ls -l target
+
+--------------
+docker command
+--------------
+
+docker images
+docker system prune -a
+docker build -t springbootrestservicedockerapp .
+docker images
+docker run -d -p 9090:8080 springbootrestservicedockerapp
+# Stop the container
+docker stop <container-id>
+docker ps
+
+====================================================================
+pushing image into docker hub
+====================================================================
+
+We have already build image into above steps
+docker build -t <image-name> .
+ex-  docker build -t springbootrestservicedockerapp .
+
+# login into docker hub account from docker machine
+$ docker login
+
+Note: Enter your docker hub account credentials.
+	
+# tag docker image
+docker tag <image-name> <tagname>
+Ex- docker tag springbootrestservicedockerapp ashwanirawat/springbootrestservicedockerapp
+
+
+# Push Docker image
+docker push ashwanirawat/springbootrestservicedockerapp
+
+pull from docker 
+docker pull <imagename>
+docker pull ashwanirawat/springbootrestservicedockerapp
+
+No need to create image since I have already downloaded image from docker now need to start only
+
+docker run -d -p 9090:8080 springbootrestservicedockerapp
+
+====================================================================
+pushing image into Nexen Rep
+====================================================================
+Pending
