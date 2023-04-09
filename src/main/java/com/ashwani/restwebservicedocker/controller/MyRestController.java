@@ -1,10 +1,11 @@
-package com.ashwani.restwebservicedocker;
+package com.ashwani.restwebservicedocker.controller;
 
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 @org.springframework.web.bind.annotation.RestController
-public class RestController {
+public class MyRestController {
  @RequestMapping(method = RequestMethod.GET, path="/welcome")
   String helloWorld()
   {
