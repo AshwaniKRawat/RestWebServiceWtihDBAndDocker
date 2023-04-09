@@ -23,9 +23,9 @@ docker command
 
 docker images
 docker system prune -a
-docker build -t springbootrestservicedockerapp .
+docker build -t spring-boot-rest-service-mysql-docker-app .
 docker images
-docker run -d -p 9090:8080 springbootrestservicedockerapp
+docker run -d -p 9090:8080 spring-boot-rest-service-mysql-docker-app
 # Stop the container
 docker stop <container-id>
 docker ps
@@ -36,7 +36,7 @@ pushing image into docker hub
 
 We have already build image into above steps
 docker build -t <image-name> .
-ex-  docker build -t springbootrestservicedockerapp .
+ex-  docker build -t spring-boot-rest-service-mysql-docker-app .
 
 # login into docker hub account from docker machine
 $ docker login
@@ -45,19 +45,19 @@ Note: Enter your docker hub account credentials.
 	
 # tag docker image
 docker tag <image-name> <tagname>
-Ex- docker tag springbootrestservicedockerapp ashwanirawat/springbootrestservicedockerapp
+Ex- docker tag spring-boot-rest-service-mysql-docker-app ashwanirawat/spring-boot-rest-service-mysql-docker-app
 
 
 # Push Docker image
-docker push ashwanirawat/springbootrestservicedockerapp
+docker push ashwanirawat/spring-boot-rest-service-mysql-docker-app
 
 pull from docker 
 docker pull <imagename>
-docker pull ashwanirawat/springbootrestservicedockerapp
+docker pull ashwanirawat/spring-boot-rest-service-mysql-docker-app
 
 No need to create image since I have already downloaded image from docker now need to start only
 
-docker run -d -p 9090:8080 springbootrestservicedockerapp
+docker run -d -p 9090:8080 spring-boot-rest-service-mysql-docker-app
 
 ====================================================================
 pushing image into Nexen Rep
