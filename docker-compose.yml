@@ -18,7 +18,7 @@ services:
       - springboot-db-net
     environment:
       - MYSQL_ROOT_PASSWORD=root
-      - MYSQL_DATABASE=Charlie@2089
+      - MYSQL_DATABASE=mytestdb
     volumes:
       - /data/mysql
 networks:

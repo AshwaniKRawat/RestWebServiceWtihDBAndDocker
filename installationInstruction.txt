@@ -25,7 +25,7 @@ docker images
 docker system prune -a
 docker build -t spring-boot-rest-service-mysql-docker-app .
 docker images
-docker run -d -p 9090:8080 spring-boot-rest-service-mysql-docker-app
+docker run -d -p 9091:8080 spring-boot-rest-service-mysql-docker-app
 # Stop the container
 docker stop <container-id>
 docker ps
@@ -58,7 +58,7 @@ docker pull ashwanirawat/spring-boot-rest-service-mysql-docker-app
 
 No need to create image since I have already downloaded image from docker now need to start only
 
-docker run -d -p 9090:8080 spring-boot-rest-service-mysql-docker-app
+docker run -d -p 9091:8080 spring-boot-rest-service-mysql-docker-app
 
 #witout mysql
 docker run -d -p 9090:8080 ashwanirawat/springbootrestservicedockerapp
