@@ -3,6 +3,8 @@ package com.ashwani.restwebservicedocker.controller;
 import java.util.Iterator;
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -15,13 +17,14 @@ import com.ashwani.restwebservicedocker.entity.User;
 
 @RestController
 public class UserRestController {
-
+	private final static Logger LOGGER = LoggerFactory.getLogger(UserRestController.class);
 	@Autowired
 	private UserDataJpaRepositoryImpl userDaoService;
 	
 	@PostMapping("/addUser")
 	public String addUser(@RequestBody User user)
 	{
+		LOGGER.info("UserRestController -  addUser() "+user);
 		userDaoService.addUser(user);
 			return getUserById(user.getId());
 	}
@@ -29,6 +32,7 @@ public class UserRestController {
 	@GetMapping("/getUsers/{id}")
 	public String getUserById(@PathVariable int id)
 	{
+		LOGGER.info("UserRestController -  getUserById() "+id);
 		List<User> usersList = userDaoService.getAllUsers();
 		StringBuffer sb=new StringBuffer();
 		sb.append("<html>\r\n\r\n"
@@ -69,12 +73,14 @@ public class UserRestController {
 		 		+ "	</table>\r\n"
 		 		+ "</body>\r\n"
 		 		+ "</html>");
+		LOGGER.info("UserRestController -  getUserById() "+sb);
 		return sb.toString();
 	}
 	
 	@GetMapping("/getAllUsers")
 	String getAllUsers()
 	{
+		LOGGER.info("UserRestController -  getAllUsers() ");
 		List<User> usersList = userDaoService.getAllUsers();
 		StringBuffer sb=new StringBuffer();
 		sb.append("<html>\r\n\r\n"
@@ -112,6 +118,7 @@ public class UserRestController {
 		 		+ "	</table>\r\n"
 		 		+ "</body>\r\n"
 		 		+ "</html>");
+		LOGGER.info("UserRestController -  getAllUsers() "+sb);
 		return sb.toString();
 	}
 	
