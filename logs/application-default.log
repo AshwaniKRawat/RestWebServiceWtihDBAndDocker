@@ -1,29 +1,51 @@
-2023-04-17 14:05:17,527 INFO  [restartedMain] com.ashwani.restwebservicedocker.RestWebServiceDockerApplication : Starting RestWebServiceDockerApplication using Java 17.0.5 on LAPTOP-SRD1UDTD with PID 30200 (C:\Data\Practice\MyWorkspace\Java_Workspace2023\rest-web-service-docker\target\classes started by Ashwani in C:\Data\Practice\MyWorkspace\Java_Workspace2023\rest-web-service-docker)
-2023-04-17 14:05:17,530 INFO  [restartedMain] com.ashwani.restwebservicedocker.RestWebServiceDockerApplication : No active profile set, falling back to 1 default profile: "default"
-2023-04-17 14:05:17,593 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-04-17 14:05:17,594 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-04-17 14:05:18,392 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2023-04-17 14:05:18,395 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-04-17 14:05:18,412 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
-2023-04-17 14:05:18,424 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2023-04-17 14:05:18,425 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-04-17 14:05:18,435 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
-2023-04-17 14:05:19,345 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
-2023-04-17 14:05:19,361 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
-2023-04-17 14:05:19,362 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.73]
-2023-04-17 14:05:19,473 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
-2023-04-17 14:05:19,473 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1878 ms
-2023-04-17 14:05:19,537 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
-2023-04-17 14:05:19,848 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
-2023-04-17 14:05:19,861 INFO  [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/mytestdb'
-2023-04-17 14:05:21,389 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2023-04-17 14:05:21,552 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2023-04-17 14:05:22,890 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
-2023-04-17 14:05:22,941 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
-2023-04-17 14:05:22,958 INFO  [restartedMain] com.ashwani.restwebservicedocker.RestWebServiceDockerApplication : Started RestWebServiceDockerApplication in 5.903 seconds (JVM running for 6.486)
-2023-04-17 14:05:49,419 INFO  [http-nio-8080-exec-2] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-04-17 14:05:49,510 INFO  [http-nio-8080-exec-2] com.ashwani.restwebservicedocker.controller.UserRestController : UserRestController -  getAllUsers() 
-2023-04-17 14:05:49,687 INFO  [http-nio-8080-exec-2] com.ashwani.restwebservicedocker.controller.UserRestController : UserRestController -  getAllUsers() <html>
+2023-04-17 19:49:53,482 INFO  [restartedMain] com.ashwani.restwebservicedocker.RestWebServiceDockerApplication : Starting RestWebServiceDockerApplication using Java 17.0.5 on LAPTOP-SRD1UDTD with PID 9888 (C:\Data\Practice\MyWorkspace\Java_Workspace2023\rest-web-service-docker\target\classes started by Ashwani in C:\Data\Practice\MyWorkspace\Java_Workspace2023\rest-web-service-docker)
+2023-04-17 19:49:53,485 INFO  [restartedMain] com.ashwani.restwebservicedocker.RestWebServiceDockerApplication : No active profile set, falling back to 1 default profile: "default"
+2023-04-17 19:49:53,564 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-17 19:49:53,565 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-17 19:49:54,346 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-17 19:49:54,348 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-04-17 19:49:54,360 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2023-04-17 19:49:54,376 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-17 19:49:54,379 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-17 19:49:54,388 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2023-04-17 19:49:55,301 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2023-04-17 19:49:55,317 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-04-17 19:49:55,318 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-04-17 19:49:55,444 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-04-17 19:49:55,445 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1879 ms
+2023-04-17 19:49:55,528 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2023-04-17 19:49:55,951 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2023-04-17 19:49:55,961 INFO  [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/mytestdb'
+2023-04-17 19:49:57,514 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17 19:49:57,719 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-17 19:49:59,211 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2023-04-17 19:49:59,274 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-17 19:49:59,292 INFO  [restartedMain] com.ashwani.restwebservicedocker.RestWebServiceDockerApplication : Started RestWebServiceDockerApplication in 6.313 seconds (JVM running for 6.871)
+2023-04-17 19:49:59,295 INFO  [restartedMain] com.ashwani.restwebservicedocker.controller.UserCommandLineRunner : ####################################################################################################
+2023-04-17 19:49:59,297 INFO  [restartedMain] com.ashwani.restwebservicedocker.controller.UserCommandLineRunner : run method -  User is initilized into DB   IN
+2023-04-17 19:49:59,390 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 19:49:59,452 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 19:49:59,468 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 19:49:59,472 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 19:49:59,475 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 19:49:59,479 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 19:49:59,483 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 19:49:59,487 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 19:49:59,491 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 19:49:59,497 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 19:49:59,501 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 19:49:59,505 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 19:49:59,508 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 19:49:59,515 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 19:49:59,518 INFO  [restartedMain] com.ashwani.restwebservicedocker.controller.UserCommandLineRunner : run method -  User is initilized into DB   OUT
+2023-04-17 19:49:59,518 INFO  [restartedMain] com.ashwani.restwebservicedocker.controller.UserCommandLineRunner : ####################################################################################################
+2023-04-17 19:50:11,393 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-17 19:50:11,428 INFO  [http-nio-8080-exec-1] com.ashwani.restwebservicedocker.controller.UserRestController : getAllUsers() IN 
+  
+2023-04-17 19:50:11,429 INFO  [http-nio-8080-exec-1] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : getAllUsers() IN
+2023-04-17 19:50:11,512 INFO  [http-nio-8080-exec-1] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : getAllUsers() OUT
+2023-04-17 19:50:11,519 INFO  [http-nio-8080-exec-1] com.ashwani.restwebservicedocker.controller.UserRestController : getAllUsers() OUT 
+  <html>
 
 <head>
 
@@ -52,6 +74,34 @@
 			<td></td>
 
 		</tr>
+<tr  style=height: 80%><td><center>1</center></td>
+<td><center>Ashwani Rawat</center></td>
+<td><center>Date</center></td>
+<tr>
+<tr  style=height: 80%><td><center>2</center></td>
+<td><center>Mahesh Kumar</center></td>
+<td><center>Date</center></td>
+<tr>
+<tr  style=height: 80%><td><center>3</center></td>
+<td><center>Vikas Dube</center></td>
+<td><center>Date</center></td>
+<tr>
+<tr  style=height: 80%><td><center>4</center></td>
+<td><center>Atik Ahamad</center></td>
+<td><center>Date</center></td>
+<tr>
+<tr  style=height: 80%><td><center>5</center></td>
+<td><center>Yogi Aditya Nath</center></td>
+<td><center>Date</center></td>
+<tr>
+<tr  style=height: 80%><td><center>6</center></td>
+<td><center>Narendra Modi</center></td>
+<td><center>Date</center></td>
+<tr>
+<tr  style=height: 80%><td><center>7</center></td>
+<td><center>Madhuri Dixit</center></td>
+<td><center>Date</center></td>
+<tr>
 <tr  style=height: 80%><td><center>10</center></td>
 <td><center>Poliyana</center></td>
 <td><center>Date</center></td>
@@ -66,8 +116,12 @@
 	</table>
 </body>
 </html>
-2023-04-17 14:07:26,266 INFO  [http-nio-8080-exec-7] com.ashwani.restwebservicedocker.controller.UserRestController : UserRestController -  getUserById() 10
-2023-04-17 14:07:26,278 INFO  [http-nio-8080-exec-7] com.ashwani.restwebservicedocker.controller.UserRestController : UserRestController -  getUserById() <html>
+2023-04-17 19:50:30,744 INFO  [http-nio-8080-exec-3] com.ashwani.restwebservicedocker.controller.UserRestController : getUserById() IN 
+  id=5
+2023-04-17 19:50:30,746 INFO  [http-nio-8080-exec-3] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : getAllUsers() IN
+2023-04-17 19:50:30,748 INFO  [http-nio-8080-exec-3] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : getAllUsers() OUT
+2023-04-17 19:50:30,758 INFO  [http-nio-8080-exec-3] com.ashwani.restwebservicedocker.controller.UserRestController : getUserById() OUT 
+  <html>
 
 <head>
 
@@ -96,11 +150,11 @@
 			<td></td>
 
 		</tr>
-<tr  style=height: 80%><td><center>10</center></td>
-<td><center>Poliyana</center></td>
+<tr  style=height: 80%><tr  style=height: 80%><tr  style=height: 80%><tr  style=height: 80%><tr  style=height: 80%><td><center>5</center></td>
+<td><center>Yogi Aditya Nath</center></td>
 <td><center>Date</center></td>
 <tr>
-		<tr  style="height: 10%">
+<tr  style=height: 80%><tr  style=height: 80%><tr  style=height: 80%>		<tr  style="height: 10%">
 			<td></td>
 			<td><center>
 					@Ashwani 8 April 2023
@@ -110,367 +164,220 @@
 	</table>
 </body>
 </html>
-2023-04-17 14:13:26,835 INFO  [restartedMain] com.ashwani.restwebservicedocker.RestWebServiceDockerApplication : Starting RestWebServiceDockerApplication using Java 17.0.5 on LAPTOP-SRD1UDTD with PID 19464 (C:\Data\Practice\MyWorkspace\Java_Workspace2023\rest-web-service-docker\target\classes started by Ashwani in C:\Data\Practice\MyWorkspace\Java_Workspace2023\rest-web-service-docker)
-2023-04-17 14:13:26,838 INFO  [restartedMain] com.ashwani.restwebservicedocker.RestWebServiceDockerApplication : The following 1 profile is active: "prod"
-2023-04-17 14:13:26,916 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-04-17 14:13:26,917 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-04-17 14:13:27,779 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2023-04-17 14:13:27,782 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2023-04-17 14:13:27,794 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
-2023-04-17 14:13:27,807 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2023-04-17 14:13:27,808 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2023-04-17 14:13:27,819 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
-2023-04-17 14:13:28,790 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
-2023-04-17 14:13:28,807 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
-2023-04-17 14:13:28,809 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.73]
-2023-04-17 14:13:28,904 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
-2023-04-17 14:13:28,904 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1986 ms
-2023-04-17 14:13:28,975 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
-2023-04-17 14:13:32,839 ERROR [restartedMain] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Exception during pool initialization.
-com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
-	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:824)
-	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:444)
-	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
-	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
-	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
-	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
-	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
-	at org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.lambda$logDataSources$1(H2ConsoleAutoConfiguration.java:86)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:395)
-	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
-	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
-	at org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.logDataSources(H2ConsoleAutoConfiguration.java:92)
-	at org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.lambda$h2Console$0(H2ConsoleAutoConfiguration.java:68)
-	at org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.withThreadContextClassLoader(H2ConsoleAutoConfiguration.java:77)
-	at org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.h2Console(H2ConsoleAutoConfiguration.java:68)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
-	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:213)
-	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:204)
-	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:98)
-	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:262)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:236)
-	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4929)
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
-	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:871)
-	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795)
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
-	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:871)
-	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249)
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
-	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
-	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:917)
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
-	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:481)
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:211)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:184)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
-	at com.ashwani.restwebservicedocker.RestWebServiceDockerApplication.main(RestWebServiceDockerApplication.java:14)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
-	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
-	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
-	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
-	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
-	at com.mysql.cj.NativeSession.connect(NativeSession.java:120)
-	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:944)
-	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:814)
-	... 89 common frames omitted
-Caused by: java.net.UnknownHostException: No such host is known (mysqldb)
-	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
-	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933)
-	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1529)
-	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
-	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1519)
-	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1377)
-	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1305)
-	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:130)
-	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
-	... 92 common frames omitted
-2023-04-17 14:13:33,022 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
-2023-04-17 14:13:34,030 ERROR [restartedMain] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Exception during pool initialization.
-com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
-	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:824)
-	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:444)
-	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
-	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
-	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
-	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
-	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
-	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
-	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
-	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
-	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:330)
-	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:164)
-	at org.springframework.boot.jdbc.init.DataSourceScriptDatabaseInitializer.isEmbeddedDatabase(DataSourceScriptDatabaseInitializer.java:70)
-	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.isEnabled(AbstractScriptDatabaseInitializer.java:83)
-	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applyScripts(AbstractScriptDatabaseInitializer.java:106)
-	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.applySchemaScripts(AbstractScriptDatabaseInitializer.java:97)
-	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.initializeDatabase(AbstractScriptDatabaseInitializer.java:75)
-	at org.springframework.boot.sql.init.AbstractScriptDatabaseInitializer.afterPropertiesSet(AbstractScriptDatabaseInitializer.java:65)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1156)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:910)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
-	at com.ashwani.restwebservicedocker.RestWebServiceDockerApplication.main(RestWebServiceDockerApplication.java:14)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
-	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
-	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
-	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
-	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
-	at com.mysql.cj.NativeSession.connect(NativeSession.java:120)
-	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:944)
-	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:814)
-	... 46 common frames omitted
-Caused by: java.net.UnknownHostException: mysqldb
-	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
-	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1519)
-	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1377)
-	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1305)
-	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:130)
-	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
-	... 49 common frames omitted
-2023-04-17 14:13:34,530 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
-2023-04-17 14:13:35,548 ERROR [restartedMain] com.zaxxer.hikari.pool.HikariPool : HikariPool-1 - Exception during pool initialization.
-com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
-	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:824)
-	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:444)
-	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
-	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
-	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
-	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
-	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
-	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181)
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
-	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:272)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:246)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:223)
-	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:295)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:252)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:223)
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1156)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:910)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
-	at com.ashwani.restwebservicedocker.RestWebServiceDockerApplication.main(RestWebServiceDockerApplication.java:14)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
-	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
-	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
-	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
-	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
-	at com.mysql.cj.NativeSession.connect(NativeSession.java:120)
-	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:944)
-	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:814)
-	... 54 common frames omitted
-Caused by: java.net.UnknownHostException: mysqldb
-	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:801)
-	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1519)
-	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1377)
-	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1305)
-	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:130)
-	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
-	... 57 common frames omitted
-2023-04-17 14:13:35,551 ERROR [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-2023-04-17 14:13:35,553 WARN  [restartedMain] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-2023-04-17 14:13:35,561 INFO  [restartedMain] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
-2023-04-17 14:13:35,575 INFO  [restartedMain] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2023-04-17 14:13:35,601 ERROR [restartedMain] org.springframework.boot.SpringApplication : Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
-	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1156)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:910)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
-	at com.ashwani.restwebservicedocker.RestWebServiceDockerApplication.main(RestWebServiceDockerApplication.java:14)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:284)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:246)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:223)
-	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:295)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:252)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:223)
-	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173)
-	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
-	... 21 common frames omitted
-Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
-	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:100)
-	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:54)
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:138)
-	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
-	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
-	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:272)
-	... 38 common frames omitted
+2023-04-17 19:53:11,759 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-17 19:53:11,776 INFO  [Thread-5] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+2023-04-17 19:53:11,779 INFO  [Thread-5] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-04-17 19:53:11,792 INFO  [Thread-5] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17 19:53:11,798 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2023-04-17 19:53:11,824 INFO  [Thread-5] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2023-04-17 19:53:11,876 INFO  [restartedMain] com.ashwani.restwebservicedocker.RestWebServiceDockerApplication : RestWebServiceDockerApplication  Applicatis is started...
+2023-04-17 19:53:11,949 INFO  [restartedMain] com.ashwani.restwebservicedocker.RestWebServiceDockerApplication : Starting RestWebServiceDockerApplication using Java 17.0.5 on LAPTOP-SRD1UDTD with PID 9888 (C:\Data\Practice\MyWorkspace\Java_Workspace2023\rest-web-service-docker\target\classes started by Ashwani in C:\Data\Practice\MyWorkspace\Java_Workspace2023\rest-web-service-docker)
+2023-04-17 19:53:11,950 INFO  [restartedMain] com.ashwani.restwebservicedocker.RestWebServiceDockerApplication : No active profile set, falling back to 1 default profile: "default"
+2023-04-17 19:53:12,338 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-17 19:53:12,338 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-04-17 19:53:12,344 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JDBC repository interfaces.
+2023-04-17 19:53:12,352 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-17 19:53:12,352 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-17 19:53:12,359 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2023-04-17 19:53:12,517 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2023-04-17 19:53:12,519 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-04-17 19:53:12,519 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-04-17 19:53:12,557 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-04-17 19:53:12,558 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 604 ms
+2023-04-17 19:53:12,586 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-2 - Starting...
+2023-04-17 19:53:12,616 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-2 - Start completed.
+2023-04-17 19:53:12,617 INFO  [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/mytestdb'
+2023-04-17 19:53:12,738 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17 19:53:12,827 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-17 19:53:13,132 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2023-04-17 19:53:13,147 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-17 19:53:13,155 INFO  [restartedMain] com.ashwani.restwebservicedocker.RestWebServiceDockerApplication : Started RestWebServiceDockerApplication in 1.267 seconds (JVM running for 200.734)
+2023-04-17 19:53:13,158 INFO  [restartedMain] com.ashwani.restwebservicedocker.controller.UserCommandLineRunner : ####################################################################################################
+2023-04-17 19:53:13,158 INFO  [restartedMain] com.ashwani.restwebservicedocker.controller.UserCommandLineRunner : run method -  User is initilized into DB   IN
+2023-04-17 19:53:13,169 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 19:53:13,174 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 19:53:13,182 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 19:53:13,186 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 19:53:13,190 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 19:53:13,192 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 19:53:13,195 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 19:53:13,197 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 19:53:13,200 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 19:53:13,202 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 19:53:13,205 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 19:53:13,208 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 19:53:13,214 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 19:53:13,218 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 19:53:13,221 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 19:53:13,239 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 19:53:13,268 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 19:53:13,271 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 19:53:13,281 INFO  [restartedMain] com.ashwani.restwebservicedocker.controller.UserCommandLineRunner : run method -  User is initilized into DB   OUT
+2023-04-17 19:53:13,281 INFO  [restartedMain] com.ashwani.restwebservicedocker.controller.UserCommandLineRunner : ####################################################################################################
+2023-04-17 19:53:13,284 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-17 20:05:03,027 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener : Restarting due to 12 class path changes (0 additions, 9 deletions, 3 modifications)
+2023-04-17 20:05:03,045 INFO  [Thread-7] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+2023-04-17 20:05:03,057 INFO  [Thread-7] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17 20:05:03,058 INFO  [Thread-7] com.zaxxer.hikari.HikariDataSource : HikariPool-2 - Shutdown initiated...
+2023-04-17 20:05:03,078 INFO  [Thread-7] com.zaxxer.hikari.HikariDataSource : HikariPool-2 - Shutdown completed.
+2023-04-17 20:05:03,132 INFO  [restartedMain] com.ashwani.restwebservicedocker.RestWebServiceDockerApplication : RestWebServiceDockerApplication  Applicatis is started...
+2023-04-17 20:05:03,237 INFO  [restartedMain] com.ashwani.restwebservicedocker.RestWebServiceDockerApplication : Starting RestWebServiceDockerApplication using Java 17.0.5 on LAPTOP-SRD1UDTD with PID 9888 (C:\Data\Practice\MyWorkspace\Java_Workspace2023\rest-web-service-docker\target\classes started by Ashwani in C:\Data\Practice\MyWorkspace\Java_Workspace2023\rest-web-service-docker)
+2023-04-17 20:05:03,238 INFO  [restartedMain] com.ashwani.restwebservicedocker.RestWebServiceDockerApplication : No active profile set, falling back to 1 default profile: "default"
+2023-04-17 20:05:03,931 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-17 20:05:03,932 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-04-17 20:05:03,936 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JDBC repository interfaces.
+2023-04-17 20:05:03,945 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-17 20:05:03,945 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-17 20:05:03,949 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2023-04-17 20:05:04,168 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2023-04-17 20:05:04,170 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-04-17 20:05:04,170 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-04-17 20:05:04,254 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-04-17 20:05:04,255 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1009 ms
+2023-04-17 20:05:04,276 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-3 - Starting...
+2023-04-17 20:05:04,301 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-3 - Start completed.
+2023-04-17 20:05:04,302 INFO  [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/mytestdb'
+2023-04-17 20:05:04,368 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17 20:05:04,398 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-17 20:05:04,733 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2023-04-17 20:05:04,780 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-17 20:05:04,796 INFO  [restartedMain] com.ashwani.restwebservicedocker.RestWebServiceDockerApplication : Started RestWebServiceDockerApplication in 1.654 seconds (JVM running for 912.375)
+2023-04-17 20:05:04,799 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-17 20:05:06,149 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener : Restarting due to 6 class path changes (6 additions, 0 deletions, 0 modifications)
+2023-04-17 20:05:06,169 INFO  [Thread-11] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+2023-04-17 20:05:06,174 INFO  [Thread-11] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17 20:05:06,174 INFO  [Thread-11] com.zaxxer.hikari.HikariDataSource : HikariPool-3 - Shutdown initiated...
+2023-04-17 20:05:06,184 INFO  [Thread-11] com.zaxxer.hikari.HikariDataSource : HikariPool-3 - Shutdown completed.
+2023-04-17 20:05:06,228 INFO  [restartedMain] com.ashwani.restwebservicedocker.RestWebServiceDockerApplication : RestWebServiceDockerApplication  Applicatis is started...
+2023-04-17 20:05:06,287 INFO  [restartedMain] com.ashwani.restwebservicedocker.RestWebServiceDockerApplication : Starting RestWebServiceDockerApplication using Java 17.0.5 on LAPTOP-SRD1UDTD with PID 9888 (C:\Data\Practice\MyWorkspace\Java_Workspace2023\rest-web-service-docker\target\classes started by Ashwani in C:\Data\Practice\MyWorkspace\Java_Workspace2023\rest-web-service-docker)
+2023-04-17 20:05:06,288 INFO  [restartedMain] com.ashwani.restwebservicedocker.RestWebServiceDockerApplication : No active profile set, falling back to 1 default profile: "default"
+2023-04-17 20:05:06,668 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-17 20:05:06,669 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-04-17 20:05:06,675 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
+2023-04-17 20:05:06,681 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-17 20:05:06,681 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-17 20:05:06,685 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2023-04-17 20:05:06,849 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2023-04-17 20:05:06,850 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-04-17 20:05:06,850 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-04-17 20:05:06,888 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-04-17 20:05:06,888 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 596 ms
+2023-04-17 20:05:06,906 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-4 - Starting...
+2023-04-17 20:05:06,931 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-4 - Start completed.
+2023-04-17 20:05:06,931 INFO  [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/mytestdb'
+2023-04-17 20:05:07,036 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17 20:05:07,110 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-17 20:05:07,514 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2023-04-17 20:05:07,528 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-17 20:05:07,533 INFO  [restartedMain] com.ashwani.restwebservicedocker.RestWebServiceDockerApplication : Started RestWebServiceDockerApplication in 1.297 seconds (JVM running for 915.112)
+2023-04-17 20:05:07,535 INFO  [restartedMain] com.ashwani.restwebservicedocker.controller.UserCommandLineRunner : ####################################################################################################
+2023-04-17 20:05:07,535 INFO  [restartedMain] com.ashwani.restwebservicedocker.controller.UserCommandLineRunner : run method -  User is initilized into DB   IN
+2023-04-17 20:05:07,548 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 20:05:07,553 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 20:05:07,556 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 20:05:07,559 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 20:05:07,562 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 20:05:07,565 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 20:05:07,568 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 20:05:07,571 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 20:05:07,574 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 20:05:07,577 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 20:05:07,579 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 20:05:07,583 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 20:05:07,586 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 20:05:07,588 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 20:05:07,591 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 20:05:07,594 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 20:05:07,596 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 20:05:07,599 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 20:05:07,602 INFO  [restartedMain] com.ashwani.restwebservicedocker.controller.UserCommandLineRunner : run method -  User is initilized into DB   OUT
+2023-04-17 20:05:07,602 INFO  [restartedMain] com.ashwani.restwebservicedocker.controller.UserCommandLineRunner : ####################################################################################################
+2023-04-17 20:05:07,604 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-17 20:05:08,695 INFO  [main] com.ashwani.restwebservicedocker.RestWebServiceDockerApplicationTests : Starting RestWebServiceDockerApplicationTests using Java 17.0.5 on LAPTOP-SRD1UDTD with PID 27400 (started by Ashwani in C:\Data\Practice\MyWorkspace\Java_Workspace2023\rest-web-service-docker)
+2023-04-17 20:05:08,697 INFO  [main] com.ashwani.restwebservicedocker.RestWebServiceDockerApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2023-04-17 20:05:09,561 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-17 20:05:09,563 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-04-17 20:05:09,579 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JDBC repository interfaces.
+2023-04-17 20:05:09,591 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-17 20:05:09,593 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-17 20:05:09,603 INFO  [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2023-04-17 20:05:10,159 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Starting...
+2023-04-17 20:05:10,712 INFO  [main] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Start completed.
+2023-04-17 20:05:12,085 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17 20:05:12,386 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-17 20:05:13,684 INFO  [main] com.ashwani.restwebservicedocker.RestWebServiceDockerApplicationTests : Started RestWebServiceDockerApplicationTests in 5.353 seconds (JVM running for 6.867)
+2023-04-17 20:05:13,687 INFO  [main] com.ashwani.restwebservicedocker.controller.UserCommandLineRunner : ####################################################################################################
+2023-04-17 20:05:13,688 INFO  [main] com.ashwani.restwebservicedocker.controller.UserCommandLineRunner : run method -  User is initilized into DB   IN
+2023-04-17 20:05:13,769 INFO  [main] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 20:05:13,817 INFO  [main] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 20:05:13,830 INFO  [main] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 20:05:13,831 INFO  [main] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 20:05:13,833 INFO  [main] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 20:05:13,835 INFO  [main] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 20:05:13,838 INFO  [main] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 20:05:13,843 INFO  [main] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 20:05:13,847 INFO  [main] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 20:05:13,849 INFO  [main] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 20:05:13,851 INFO  [main] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 20:05:13,854 INFO  [main] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 20:05:13,858 INFO  [main] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 20:05:13,862 INFO  [main] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 20:05:13,864 INFO  [main] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 20:05:13,866 INFO  [main] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 20:05:13,868 INFO  [main] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 20:05:13,870 INFO  [main] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 20:05:13,873 INFO  [main] com.ashwani.restwebservicedocker.controller.UserCommandLineRunner : run method -  User is initilized into DB   OUT
+2023-04-17 20:05:13,874 INFO  [main] com.ashwani.restwebservicedocker.controller.UserCommandLineRunner : ####################################################################################################
+2023-04-17 20:05:14,147 INFO  [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17 20:05:14,150 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown initiated...
+2023-04-17 20:05:14,167 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource : HikariPool-1 - Shutdown completed.
+2023-04-17 20:08:34,222 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (3 additions, 0 deletions, 0 modifications)
+2023-04-17 20:08:34,245 INFO  [Thread-15] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+2023-04-17 20:08:34,250 INFO  [Thread-15] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17 20:08:34,251 INFO  [Thread-15] com.zaxxer.hikari.HikariDataSource : HikariPool-4 - Shutdown initiated...
+2023-04-17 20:08:34,261 INFO  [Thread-15] com.zaxxer.hikari.HikariDataSource : HikariPool-4 - Shutdown completed.
+2023-04-17 20:08:34,299 INFO  [restartedMain] com.ashwani.restwebservicedocker.RestWebServiceDockerApplication : RestWebServiceDockerApplication  Applicatis is started...
+2023-04-17 20:08:34,338 INFO  [restartedMain] com.ashwani.restwebservicedocker.RestWebServiceDockerApplication : Starting RestWebServiceDockerApplication using Java 17.0.5 on LAPTOP-SRD1UDTD with PID 9888 (C:\Data\Practice\MyWorkspace\Java_Workspace2023\rest-web-service-docker\target\classes started by Ashwani in C:\Data\Practice\MyWorkspace\Java_Workspace2023\rest-web-service-docker)
+2023-04-17 20:08:34,339 INFO  [restartedMain] com.ashwani.restwebservicedocker.RestWebServiceDockerApplication : No active profile set, falling back to 1 default profile: "default"
+2023-04-17 20:08:34,531 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-17 20:08:34,531 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-04-17 20:08:34,534 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JDBC repository interfaces.
+2023-04-17 20:08:34,539 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2023-04-17 20:08:34,539 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-17 20:08:34,542 INFO  [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2023-04-17 20:08:34,649 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+2023-04-17 20:08:34,650 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2023-04-17 20:08:34,650 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-04-17 20:08:34,676 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2023-04-17 20:08:34,676 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 334 ms
+2023-04-17 20:08:34,688 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-5 - Starting...
+2023-04-17 20:08:34,704 INFO  [restartedMain] com.zaxxer.hikari.HikariDataSource : HikariPool-5 - Start completed.
+2023-04-17 20:08:34,704 INFO  [restartedMain] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/mytestdb'
+2023-04-17 20:08:34,761 INFO  [restartedMain] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17 20:08:34,802 WARN  [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-17 20:08:34,995 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2023-04-17 20:08:35,008 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-17 20:08:35,014 INFO  [restartedMain] com.ashwani.restwebservicedocker.RestWebServiceDockerApplication : Started RestWebServiceDockerApplication in 0.709 seconds (JVM running for 1122.594)
+2023-04-17 20:08:35,016 INFO  [restartedMain] com.ashwani.restwebservicedocker.controller.UserCommandLineRunner : ####################################################################################################
+2023-04-17 20:08:35,016 INFO  [restartedMain] com.ashwani.restwebservicedocker.controller.UserCommandLineRunner : run method -  User is initilized into DB   IN
+2023-04-17 20:08:35,026 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 20:08:35,028 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 20:08:35,030 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 20:08:35,032 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 20:08:35,034 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 20:08:35,037 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 20:08:35,042 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 20:08:35,045 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 20:08:35,048 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 20:08:35,052 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 20:08:35,057 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 20:08:35,060 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 20:08:35,063 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 20:08:35,065 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 20:08:35,068 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 20:08:35,071 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 20:08:35,074 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() IN
+2023-04-17 20:08:35,076 INFO  [restartedMain] com.ashwani.restwebservicedocker.dao.UserDataJpaRepositoryImpl : addUser() OUT
+2023-04-17 20:08:35,078 INFO  [restartedMain] com.ashwani.restwebservicedocker.controller.UserCommandLineRunner : run method -  User is initilized into DB   OUT
+2023-04-17 20:08:35,078 INFO  [restartedMain] com.ashwani.restwebservicedocker.controller.UserCommandLineRunner : ####################################################################################################
+2023-04-17 20:08:35,080 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

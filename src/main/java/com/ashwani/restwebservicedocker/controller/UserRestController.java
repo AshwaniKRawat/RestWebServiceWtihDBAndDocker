@@ -24,15 +24,16 @@ public class UserRestController {
 	@PostMapping("/addUser")
 	public String addUser(@RequestBody User user)
 	{
-		LOGGER.info("UserRestController -  addUser() "+user);
+		LOGGER.info("addUser() IN \n  User="+user);
 		userDaoService.addUser(user);
+		LOGGER.info("addUser() OUT \n ");
 			return getUserById(user.getId());
 	}
 	
 	@GetMapping("/getUsers/{id}")
 	public String getUserById(@PathVariable int id)
 	{
-		LOGGER.info("UserRestController -  getUserById() "+id);
+		LOGGER.info("getUserById() IN \n  id="+id);
 		List<User> usersList = userDaoService.getAllUsers();
 		StringBuffer sb=new StringBuffer();
 		sb.append("<html>\r\n\r\n"
@@ -73,14 +74,14 @@ public class UserRestController {
 		 		+ "	</table>\r\n"
 		 		+ "</body>\r\n"
 		 		+ "</html>");
-		LOGGER.info("UserRestController -  getUserById() "+sb);
+		LOGGER.info("getUserById() OUT \n  "+sb);
 		return sb.toString();
 	}
 	
 	@GetMapping("/getAllUsers")
 	String getAllUsers()
 	{
-		LOGGER.info("UserRestController -  getAllUsers() ");
+		LOGGER.info("getAllUsers() IN \n  ");
 		List<User> usersList = userDaoService.getAllUsers();
 		StringBuffer sb=new StringBuffer();
 		sb.append("<html>\r\n\r\n"
@@ -118,9 +119,13 @@ public class UserRestController {
 		 		+ "	</table>\r\n"
 		 		+ "</body>\r\n"
 		 		+ "</html>");
-		LOGGER.info("UserRestController -  getAllUsers() "+sb);
+		LOGGER.info("getAllUsers() OUT \n  "+sb);
 		return sb.toString();
 	}
 	
-	
+	@GetMapping("/")
+	public String apiName()
+	{
+		return "/getAllUsers,/getUsers/{id},addUser,/getUsers/{id},/addUser     ";
+	}
 }

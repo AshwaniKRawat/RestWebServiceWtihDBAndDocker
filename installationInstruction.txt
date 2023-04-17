@@ -68,3 +68,6 @@ http://EC2-IP-Address:9090/welcome
 pushing image into Nexen Rep
 ====================================================================
 Pending
+
+
+-Dspring.profiles.active=prod
