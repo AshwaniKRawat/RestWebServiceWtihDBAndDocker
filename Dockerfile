@@ -4,4 +4,4 @@ COPY target/spring-boot-mysql.jar  /usr/app/
 
 WORKDIR /usr/app/
 
-ENTRYPOINT ["java", "-jar", "spring-boot-mysql.jar"]
+ENTRYPOINT ["java", "-jar -Dspring.profiles.active=prod", "spring-boot-mysql.jar"]
