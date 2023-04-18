@@ -69,12 +69,13 @@ pushing image into Nexen Rep
 ====================================================================
 Pending
 
-Run Prod Profile
+-Run Prod Profile from eclipse
 -Dspring.profiles.active=prod
 
-Run mvn command by skipping test
-	mvn clean compile package -Dmaven.test.skip=true
+-Run mvn command by skipping test
+mvn clean compile package -Dmaven.test.skip=true
 	
+Run Prod Profile from prod	
 java -Dspring.profiles.active=prod -jar spring-boot-mysql.jar
 	
 
