@@ -1,38 +1,54 @@
-==================================
-install application into docker
-==================================
------------
-git command
------------
+=======================================================================================================================================================================
+                                                                    Git Clone and build
+=======================================================================================================================================================================
 
-git clone https://github.com/AshwaniKRawat/rest-web-service-docker.git
-
+git clone https://github.com/AshwaniKRawat/RestWebServiceWtihDBAndDocker.git
 
 cd rest-web-service-docker
 ls -l
 
---------------
-Maven command
---------------
-mvn clean package
+$ mvn clean package -Dmaven.test.skip=true
 ls -l target
 
---------------
-docker command
---------------
+=======================================================================================================================================================================
+                                                       2 ways to  install application into docker
+=======================================================================================================================================================================
 
-docker images
-docker system prune -a
-docker build -t spring-boot-rest-service-mysql-docker-app .
-docker images
-docker run -d -p 9091:8080 spring-boot-rest-service-mysql-docker-app
-# Stop the container
-docker stop <container-id>
-docker ps
+=======================================================================================================================================================================
+                                               Install application into docker using maven build and creating image (Aproach 1)
+=======================================================================================================================================================================
 
-====================================================================
-pushing image into docker hub
-====================================================================
+
+$ docker images
+$ docker system prune -a
+Note: To build the image,  docker file should be availabe into current working directory
+#Image created using docer build
+$ docker build -t spring-boot-rest-service-mysql-docker-app .
+$ docker images
+# This code contains DB code so we have to docker compose command 
+# Create Containers using Docker Compose
+$ docker-compose up -d
+........
+........
+........
+........
+Status: Downloaded newer image for mysql:5.7
+Creating restwebservicewtihdbanddocker_mysqldb_1 ... done
+Creating restwebservicewtihdbanddocker_application_1 ... done
+
+# Display containers created by docker compose
+$ docker-compose ps
+                   Name                                  Command               State                    Ports
+-------------------------------------------------------------------------------------------------------------------------------
+restwebservicewtihdbanddocker_application_1   java -jar spring-boot-mysq ...   Up      0.0.0.0:8081->8080/tcp,:::8081->8080/tcp
+restwebservicewtihdbanddocker_mysqldb_1       docker-entrypoint.sh mysqld      Up      3306/tcp, 33060/tcp
+
+incomplete...
+
+=======================================================================================================================================================================
+                                                          Pushing image into docker hub
+=======================================================================================================================================================================
+
 
 We have already build image into above steps
 docker build -t <image-name> .
@@ -52,7 +68,7 @@ Ex- docker tag spring-boot-rest-service-mysql-docker-app ashwanirawat/spring-boo
 docker push ashwanirawat/spring-boot-rest-service-mysql-docker-app
 docker push ashwanirawat/springbootrestservicedockerapp
 
-pull from docker 
+Pull from docker 
 docker pull <imagename>
 docker pull ashwanirawat/spring-boot-rest-service-mysql-docker-app
 
@@ -60,9 +76,10 @@ No need to create image since I have already downloaded image from docker now ne
 
 docker run -d -p 9091:8080 spring-boot-rest-service-mysql-docker-app
 
-#witout mysql
-docker run -d -p 9090:8080 ashwanirawat/springbootrestservicedockerapp
+#With MySQL
+docker run -d -p 9090:8080 ashwanirawat/spring-boot-rest-service-mysql-docker-app
 http://EC2-IP-Address:9090/welcome
+
 
 ====================================================================
 pushing image into Nexen Rep
